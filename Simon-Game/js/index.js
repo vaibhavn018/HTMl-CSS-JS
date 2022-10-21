@@ -18,7 +18,7 @@ btn.forEach((button) => {
 
 
 document.addEventListener("keydown", (event)=>{
-    if(event.key === "Enter" || event.key ===" ")  {
+    if(event.key === "Enter")  {
         if(!started) {
             nextSequence();
             started = true;
